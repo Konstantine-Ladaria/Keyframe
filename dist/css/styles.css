@@ -1,0 +1,1451 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-div {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.749);
+  align-items: center;
+  justify-content: center;
+}
+.main-div .animation-Wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 84vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main-div .animation-Wrapper .span-row-1 {
+  opacity: 0;
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.608);
+  transition: all 300ms;
+  gap: 0%;
+}
+.main-div .animation-Wrapper .span-row-1 span {
+  width: 6.5%;
+  height: 80%;
+  background-color: aquamarine;
+  border-radius: 0%;
+}
+
+.span-1 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+
+.span-2 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+.span-3 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+.span-4 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+
+.span-5 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+
+.span-6 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.span-7 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+}
+
+.span-8 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+
+.span-9 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+
+.span-10 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
+.span-11 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+}
+
+.span-12 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+
+.span-13 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+}
+
+.span-14 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
+}
+
+.span-15 {
+  -webkit-animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+          animation: anima-1 5s infinite linear forwards, anima-2 6s infinite linear forwards;
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+}
+
+@-webkit-keyframes anima-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    height: 1%;
+    border-radius: 1%;
+    transform: rotate(360deg);
+  }
+  66% {
+    height: 1%;
+    width: 1%;
+    opacity: 0.1;
+    transform: rotate(720deg);
+    border-radius: 50%;
+  }
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+
+@keyframes anima-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    height: 1%;
+    border-radius: 1%;
+    transform: rotate(360deg);
+  }
+  66% {
+    height: 1%;
+    width: 1%;
+    opacity: 0.1;
+    transform: rotate(720deg);
+    border-radius: 50%;
+  }
+  100% {
+    transform: rotate(1080deg);
+  }
+}
+.span-row-2 {
+  opacity: 0;
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.608);
+  gap: 0%;
+  -webkit-animation: gap 7s infinite linear forwards;
+          animation: gap 7s infinite linear forwards;
+}
+.span-row-2 span {
+  width: 6.5%;
+  height: 80%;
+  background-color: aquamarine;
+  border-radius: 0%;
+}
+
+.span-II-1 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+}
+
+.span-II-2 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+
+.span-II-3 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+.span-II-4 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+.span-II-5 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+
+.span-II-6 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+
+.span-II-7 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.span-II-8 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+}
+
+.span-II-9 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+
+.span-II-10 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+
+.span-II-11 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
+.span-II-12 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+}
+
+.span-II-13 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+
+.span-II-14 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+}
+
+.span-II-15 {
+  -webkit-animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+          animation: anima-2 5s infinite linear forwards, sqweez 6s infinite linear forwards;
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
+}
+
+@-webkit-keyframes anima-2 {
+  0% {
+    background-color: violet;
+  }
+  14% {
+    background-color: red;
+  }
+  28% {
+    background-color: orange;
+  }
+  42% {
+    background-color: yellow;
+  }
+  56% {
+    background-color: green;
+  }
+  71% {
+    background-color: blue;
+  }
+  85% {
+    background-color: indigo;
+  }
+  100% {
+    background-color: violet;
+  }
+}
+
+@keyframes anima-2 {
+  0% {
+    background-color: violet;
+  }
+  14% {
+    background-color: red;
+  }
+  28% {
+    background-color: orange;
+  }
+  42% {
+    background-color: yellow;
+  }
+  56% {
+    background-color: green;
+  }
+  71% {
+    background-color: blue;
+  }
+  85% {
+    background-color: indigo;
+  }
+  100% {
+    background-color: violet;
+  }
+}
+@-webkit-keyframes sqweez {
+  14% {
+    width: 6%;
+  }
+  28% {
+    width: 3%;
+  }
+  42% {
+    width: 2%;
+  }
+  56% {
+    width: 0;
+  }
+  71% {
+    width: 2%;
+  }
+  85% {
+    width: 4%;
+  }
+}
+@keyframes sqweez {
+  14% {
+    width: 6%;
+  }
+  28% {
+    width: 3%;
+  }
+  42% {
+    width: 2%;
+  }
+  56% {
+    width: 0;
+  }
+  71% {
+    width: 2%;
+  }
+  85% {
+    width: 4%;
+  }
+}
+@-webkit-keyframes gap {
+  0% {
+    gap: 0;
+  }
+  25% {
+    gap: 0;
+  }
+  50% {
+    gap: 1%;
+  }
+  75% {
+    gap: 0;
+  }
+  100% {
+    gap: 0;
+  }
+}
+@keyframes gap {
+  0% {
+    gap: 0;
+  }
+  25% {
+    gap: 0;
+  }
+  50% {
+    gap: 1%;
+  }
+  75% {
+    gap: 0;
+  }
+  100% {
+    gap: 0;
+  }
+}
+.span-row-3 {
+  opacity: 0;
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.608);
+  gap: 0%;
+}
+.span-row-3 span {
+  position: absolute;
+  left: 11%;
+  width: 5%;
+  height: 5%;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.span-III-1 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+}
+
+.span-III-2 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+.span-III-3 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+
+.span-III-4 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.span-III-5 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+
+.span-III-6 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
+.span-III-7 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+
+.span-III-8 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
+}
+
+.span-III-9 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 1600ms;
+          animation-delay: 1600ms;
+}
+
+.span-III-10 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 18000ms;
+          animation-delay: 18000ms;
+}
+
+.span-III-11 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 2000ms;
+          animation-delay: 2000ms;
+}
+
+.span-III-12 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 2200ms;
+          animation-delay: 2200ms;
+}
+
+.span-III-13 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 2400ms;
+          animation-delay: 2400ms;
+}
+
+.span-III-14 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 2600ms;
+          animation-delay: 2600ms;
+}
+
+.span-III-15 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 2800ms;
+          animation-delay: 2800ms;
+}
+
+.span-III-16 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 3000ms;
+          animation-delay: 3000ms;
+}
+
+.span-III-17 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 3200ms;
+          animation-delay: 3200ms;
+}
+
+.span-III-18 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 3400ms;
+          animation-delay: 3400ms;
+}
+
+.span-III-19 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 3600ms;
+          animation-delay: 3600ms;
+}
+
+.span-III-20 {
+  -webkit-animation: left-right 5s infinite linear forwards;
+          animation: left-right 5s infinite linear forwards;
+  -webkit-animation-delay: 3800ms;
+          animation-delay: 3800ms;
+}
+
+@-webkit-keyframes left-right {
+  0% {
+    margin-left: 0%;
+    opacity: 0.9;
+  }
+  25% {
+    margin-left: 37%;
+    background-color: #53a78b;
+    opacity: 0.7;
+    width: 2%;
+    height: 2%;
+    z-index: 0;
+    transform: translateY(40px);
+  }
+  50% {
+    margin-left: 74%;
+    background-color: rgb(97, 192, 160);
+    opacity: 0.8;
+    width: 4%;
+    height: 4%;
+    z-index: 0;
+  }
+  75% {
+    margin-left: 37%;
+    background-color: rgb(181, 255, 230);
+    opacity: 1;
+    width: 6%;
+    height: 6%;
+    z-index: 1;
+    transform: translateY(-40px);
+  }
+  100% {
+    margin-left: 0%;
+    opacity: 0.9;
+  }
+}
+
+@keyframes left-right {
+  0% {
+    margin-left: 0%;
+    opacity: 0.9;
+  }
+  25% {
+    margin-left: 37%;
+    background-color: #53a78b;
+    opacity: 0.7;
+    width: 2%;
+    height: 2%;
+    z-index: 0;
+    transform: translateY(40px);
+  }
+  50% {
+    margin-left: 74%;
+    background-color: rgb(97, 192, 160);
+    opacity: 0.8;
+    width: 4%;
+    height: 4%;
+    z-index: 0;
+  }
+  75% {
+    margin-left: 37%;
+    background-color: rgb(181, 255, 230);
+    opacity: 1;
+    width: 6%;
+    height: 6%;
+    z-index: 1;
+    transform: translateY(-40px);
+  }
+  100% {
+    margin-left: 0%;
+    opacity: 0.9;
+  }
+}
+.span-row-4 {
+  opacity: 0;
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.608);
+  gap: 0%;
+}
+.span-row-4 span {
+  position: absolute;
+  left: 8.55%;
+  width: 79.9%;
+  height: 1px;
+}
+
+.span-IV-1 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+  background-color: rgb(0, 255, 0);
+}
+
+.span-IV-2 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 188ms;
+          animation-delay: 188ms;
+  background-color: rgb(255, 0, 205);
+}
+
+.span-IV-3 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 376ms;
+          animation-delay: 376ms;
+  background-color: rgb(0, 102, 255);
+}
+
+.span-IV-4 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 564ms;
+          animation-delay: 564ms;
+  background-color: rgb(255, 0, 102);
+}
+
+.span-IV-5 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 752ms;
+          animation-delay: 752ms;
+  background-color: rgb(244, 102, 0);
+}
+
+.span-IV-6 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 940ms;
+          animation-delay: 940ms;
+  background-color: rgb(255, 0, 0);
+}
+
+.span-IV-7 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 1128ms;
+          animation-delay: 1128ms;
+  background-color: rgb(255, 205, 0);
+}
+
+.span-IV-8 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 1316ms;
+          animation-delay: 1316ms;
+  background-color: rgb(0, 0, 255);
+}
+
+.span-IV-9 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 1504ms;
+          animation-delay: 1504ms;
+  background-color: rgb(102, 255, 0);
+}
+
+.span-IV-10 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 1692ms;
+          animation-delay: 1692ms;
+  background-color: rgb(255, 0, 0);
+}
+
+.span-IV-11 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 1880ms;
+          animation-delay: 1880ms;
+  background-color: rgb(205, 0, 255);
+}
+
+.span-IV-12 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 2068ms;
+          animation-delay: 2068ms;
+  background-color: rgb(0, 255, 102);
+}
+
+.span-IV-13 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 2256ms;
+          animation-delay: 2256ms;
+  background-color: rgb(0, 255, 205);
+}
+
+.span-IV-14 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 2444ms;
+          animation-delay: 2444ms;
+  background-color: rgb(102, 0, 255);
+}
+
+.span-IV-15 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 2632ms;
+          animation-delay: 2632ms;
+  background-color: rgb(205, 255, 0);
+}
+
+.span-IV-16 {
+  -webkit-animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+          animation: netflix 2820ms infinite linear forwards, width 5000ms infinite linear forwards;
+  -webkit-animation-delay: 2820ms;
+          animation-delay: 2820ms;
+  background-color: rgb(0, 205, 255);
+}
+
+@-webkit-keyframes netflix {
+  0% {
+    z-index: 30;
+  }
+  50% {
+    height: 60px;
+    z-index: 20;
+  }
+  100% {
+    height: 120px;
+    z-index: 10;
+    opacity: 0;
+  }
+}
+
+@keyframes netflix {
+  0% {
+    z-index: 30;
+  }
+  50% {
+    height: 60px;
+    z-index: 20;
+  }
+  100% {
+    height: 120px;
+    z-index: 10;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes width {
+  0% {
+    width: 79.9%;
+  }
+  25% {
+    width: 60%;
+  }
+  50% {
+    width: 40%;
+    background-color: white;
+  }
+  75% {
+    width: 20%;
+  }
+  100% {
+    width: 1%;
+  }
+}
+@keyframes width {
+  0% {
+    width: 79.9%;
+  }
+  25% {
+    width: 60%;
+  }
+  50% {
+    width: 40%;
+    background-color: white;
+  }
+  75% {
+    width: 20%;
+  }
+  100% {
+    width: 1%;
+  }
+}
+.span-row-5 {
+  opacity: 0;
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.608);
+  gap: 1%;
+}
+.span-row-5 span {
+  width: 2%;
+  height: 10%;
+  background-color: aquamarine;
+  border-radius: 10%;
+}
+
+.span-V-1 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-2 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-3 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-4 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-5 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-6 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-7 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 1800ms;
+          animation-delay: 1800ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-8 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 2100ms;
+          animation-delay: 2100ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-9 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 2400ms;
+          animation-delay: 2400ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-10 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 2700ms;
+          animation-delay: 2700ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-11 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 3000ms;
+          animation-delay: 3000ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-12 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 3300ms;
+          animation-delay: 3300ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-13 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 3600ms;
+          animation-delay: 3600ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-14 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 3900ms;
+          animation-delay: 3900ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-15 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 4200ms;
+          animation-delay: 4200ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+.span-V-16 {
+  -webkit-animation: acceleration 4500ms infinite forwards;
+          animation: acceleration 4500ms infinite forwards;
+  -webkit-animation-delay: 4500ms;
+          animation-delay: 4500ms;
+  -webkit-animation-timing-function: cubic-bezier(1, 2, 3, 4);
+          animation-timing-function: cubic-bezier(1, 2, 3, 4);
+}
+
+@-webkit-keyframes acceleration {
+  0% {
+    transform: rotate(-90deg);
+    background-color: #ff0000;
+  }
+  33% {
+    transform: rotate(180deg);
+    background-color: #53a3a7;
+  }
+  66% {
+    transform: rotate(180deg);
+    background-color: #53a78b;
+  }
+  100% {
+    transform: rotate(-90deg);
+    background-color: #ff0303;
+  }
+}
+
+@keyframes acceleration {
+  0% {
+    transform: rotate(-90deg);
+    background-color: #ff0000;
+  }
+  33% {
+    transform: rotate(180deg);
+    background-color: #53a3a7;
+  }
+  66% {
+    transform: rotate(180deg);
+    background-color: #53a78b;
+  }
+  100% {
+    transform: rotate(-90deg);
+    background-color: #ff0303;
+  }
+}
+.span-row-6 {
+  opacity: 0;
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.608);
+  gap: 0%;
+}
+.span-row-6 span {
+  display: flex;
+  align-items: center;
+  width: 6.5%;
+  height: 80%;
+  background-color: transparent;
+  border-radius: 0%;
+  font-size: x-large;
+  color: black;
+}
+
+.span-VI-1 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+}
+
+.span-VI-2 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+.span-VI-3 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+
+.span-VI-4 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.span-VI-5 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+
+.span-VI-6 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
+.span-VI-7 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+
+.span-VI-8 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
+}
+
+.span-VI-9 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 1600ms;
+          animation-delay: 1600ms;
+}
+
+.span-VI-10 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 1800ms;
+          animation-delay: 1800ms;
+}
+
+.span-VI-11 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 2000ms;
+          animation-delay: 2000ms;
+}
+
+.span-VI-12 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 2200ms;
+          animation-delay: 2200ms;
+}
+
+.span-VI-13 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 2400ms;
+          animation-delay: 2400ms;
+}
+
+.span-VI-14 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 2600ms;
+          animation-delay: 2600ms;
+}
+
+.span-VI-15 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 2800ms;
+          animation-delay: 2800ms;
+}
+
+.span-VI-16 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 3000ms;
+          animation-delay: 3000ms;
+}
+
+.span-VI-17 {
+  -webkit-animation: comingSoon 6400ms infinite linear forwards;
+          animation: comingSoon 6400ms infinite linear forwards;
+  -webkit-animation-delay: 3200ms;
+          animation-delay: 3200ms;
+}
+
+img {
+  width: 40%;
+}
+
+@-webkit-keyframes comingSoon {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  7% {
+    color: rgb(244, 102, 0);
+  }
+  13% {
+    color: rgb(255, 205, 0);
+  }
+  20% {
+    color: rgb(205, 255, 0);
+    width: 7%;
+  }
+  26% {
+    color: rgb(102, 255, 0);
+  }
+  33% {
+    color: rgb(0, 255, 0);
+    transform: rotate(180deg);
+  }
+  40% {
+    color: rgb(0, 255, 102);
+    transform: rotate(360deg);
+  }
+  46% {
+    color: rgb(0, 255, 205);
+  }
+  53% {
+    color: rgb(0, 205, 255);
+    width: 3%;
+  }
+  59% {
+    color: rgb(0, 102, 255);
+  }
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  73% {
+    color: rgb(102, 0, 255);
+  }
+  79% {
+    color: rgb(205, 0, 255);
+  }
+  86% {
+    color: rgb(255, 0, 205);
+    width: 7%;
+  }
+  92% {
+    color: rgb(255, 0, 102);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+
+@keyframes comingSoon {
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  7% {
+    color: rgb(244, 102, 0);
+  }
+  13% {
+    color: rgb(255, 205, 0);
+  }
+  20% {
+    color: rgb(205, 255, 0);
+    width: 7%;
+  }
+  26% {
+    color: rgb(102, 255, 0);
+  }
+  33% {
+    color: rgb(0, 255, 0);
+    transform: rotate(180deg);
+  }
+  40% {
+    color: rgb(0, 255, 102);
+    transform: rotate(360deg);
+  }
+  46% {
+    color: rgb(0, 255, 205);
+  }
+  53% {
+    color: rgb(0, 205, 255);
+    width: 3%;
+  }
+  59% {
+    color: rgb(0, 102, 255);
+  }
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  73% {
+    color: rgb(102, 0, 255);
+  }
+  79% {
+    color: rgb(205, 0, 255);
+  }
+  86% {
+    color: rgb(255, 0, 205);
+    width: 7%;
+  }
+  92% {
+    color: rgb(255, 0, 102);
+  }
+  100% {
+    color: rgb(255, 0, 0);
+  }
+}
+.buttons-div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 1%;
+  height: 70vh;
+  width: 3%;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons-div button {
+  position: relative;
+  left: 0.5%;
+  width: 100%;
+  height: 20px;
+  border-radius: 30%;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+#but1:hover {
+  -webkit-animation: buttonFlick 150ms linear infinite forwards;
+          animation: buttonFlick 150ms linear infinite forwards;
+}
+
+#but2:hover {
+  -webkit-animation: buttonFlick 150ms linear infinite forwards;
+          animation: buttonFlick 150ms linear infinite forwards;
+}
+
+#but3:hover {
+  -webkit-animation: buttonFlick 150ms linear infinite forwards;
+          animation: buttonFlick 150ms linear infinite forwards;
+}
+
+#but4:hover {
+  -webkit-animation: buttonFlick 150ms linear infinite forwards;
+          animation: buttonFlick 150ms linear infinite forwards;
+}
+
+#but5:hover {
+  -webkit-animation: buttonFlick 150ms linear infinite forwards;
+          animation: buttonFlick 150ms linear infinite forwards;
+}
+
+#but6:hover {
+  -webkit-animation: buttonFlick 150ms linear infinite forwards;
+          animation: buttonFlick 150ms linear infinite forwards;
+}
+
+@-webkit-keyframes buttonFlick {
+  0% {
+    border: 2px solid green;
+  }
+  50% {
+    border: 2px solid greenyellow;
+  }
+  100% {
+    border: 2px solid green;
+  }
+}
+
+@keyframes buttonFlick {
+  0% {
+    border: 2px solid green;
+  }
+  50% {
+    border: 2px solid greenyellow;
+  }
+  100% {
+    border: 2px solid green;
+  }
+}
+#but1.activated {
+  background-color: greenyellow;
+}
+
+#but2.activated {
+  background-color: greenyellow;
+}
+
+#but3.activated {
+  background-color: greenyellow;
+}
+
+#but4.activated {
+  background-color: greenyellow;
+}
+
+#but5.activated {
+  background-color: greenyellow;
+}
+
+#but6.activated {
+  background-color: greenyellow;
+}
+
+#spanRow1.visible {
+  opacity: 1;
+}
+
+#spanRow2.visible {
+  opacity: 1;
+}
+
+#spanRow3.visible {
+  opacity: 1;
+}
+
+#spanRow4.visible {
+  opacity: 1;
+}
+
+#spanRow5.visible {
+  opacity: 1;
+}
+
+#spanRow6.visible {
+  opacity: 1;
+}/*# sourceMappingURL=styles.css.map */
